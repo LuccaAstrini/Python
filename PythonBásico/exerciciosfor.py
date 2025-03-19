@@ -14,3 +14,10 @@ for i in range(0, n):
     b = a
     a = pos
     print(pos)
+
+#Faça um programa que calcule a média de uma lista de números
+lista = [1,2,3,4,5,6,7,8,9,10]
+soma = 0
+for numero in lista:
+    soma += numero
+print(f'A média da lista é: {soma/len(lista)}')
